@@ -1,4 +1,4 @@
-#include "ft_prinf.h"
+#include "ft_printf.h"
 #include <stdlib.h>
 
 int	ft_num_len(unsigned	int num)

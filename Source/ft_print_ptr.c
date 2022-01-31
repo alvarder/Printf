@@ -1,4 +1,4 @@
-#include "ft_prinf.h"
+#include "ft_printf.h"
 #include "libft.h"
 
 int     ft_ptr_len(uintptr_t num)

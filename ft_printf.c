@@ -1,4 +1,4 @@
-#include "ft_prinf.h"
+#include "ft_printf.h"
 #include <stdlib.h>
 #include <stdio.h>
 #include <unistd.h>
@@ -55,16 +55,4 @@ int ft_printf(const char *str, ...)
 	}
 	va_end(args);
 	return(print_length);
-}
-
-int main()
-{
-	const char *str;
-	char car;
-	char *strr; 	
-
-	str = "akbyuvk6 %s";
-	car = '?';
-	strr = "LOL";
-	ft_printf("Hola soy Alvaro y juego al %s %c %d %x %X %u \n", "LOL", '!', -2653, 12343, 45366, 36346463453);
 }
